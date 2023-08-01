@@ -9,17 +9,50 @@
 // Buy me a ko-fi:  https://ko-fi.com/StewartLynch
 
 
+// Credit to https://github.com/TUNER88/iOSSystemSoundsLibrary
+
 import SwiftUI
+import AudioToolbox
+
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                ForEach(SystemSound.all) { sound in
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(sound.name)
+                                .font(.title)
+                            Text( sound.id == -1  ?  "kSystemSoundID_Vibrate" :  "id: \(String(sound.id))")
+                            Text(sound.id == -1 ? "" : sound.category)
+                        }
+                        Spacer()
+                        Button {
+                            if sound.id == -1 {
+                                AudioServicesPlayAlertSoundWithCompletion(
+                                    SystemSoundID(
+                                        kSystemSoundID_Vibrate
+                                    )
+                                ) {}
+                            } else {
+                                AudioServicesPlayAlertSoundWithCompletion(
+                                    SystemSoundID(
+                                        sound.id
+                                    )
+                                ) {}
+                            }
+                        } label: {
+                            Image(systemName: "speaker.wave.3")
+                        }
+                        .font(.title)
+                        .buttonStyle(.plain)
+                    }
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle("System Sounds")
         }
-        .padding()
     }
 }
 

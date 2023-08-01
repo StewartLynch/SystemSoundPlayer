@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB10F4B42A78A26100AAE233 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB10F4B32A78A26100AAE233 /* Launch Screen.storyboard */; };
 		BB2EADDB2A7885B500D2E76E /* SystemSoundPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2EADDA2A7885B500D2E76E /* SystemSoundPlayerApp.swift */; };
 		BB2EADDD2A7885B500D2E76E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2EADDC2A7885B500D2E76E /* ContentView.swift */; };
 		BB2EADDF2A7885B800D2E76E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2EADDE2A7885B800D2E76E /* Assets.xcassets */; };
 		BB2EADE22A7885B800D2E76E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2EADE12A7885B800D2E76E /* Preview Assets.xcassets */; };
+		BB9BE5EA2A78861900411E4B /* Sounds.json in Resources */ = {isa = PBXBuildFile; fileRef = BB9BE5E92A78861900411E4B /* Sounds.json */; };
+		BBE680452A78866C001C5BA9 /* SystemSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE680442A78866C001C5BA9 /* SystemSound.swift */; };
+		BBE680472A788743001C5BA9 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE680462A788743001C5BA9 /* Bundle+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB10F4B32A78A26100AAE233 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BB2EADD72A7885B500D2E76E /* SystemSoundPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemSoundPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2EADDA2A7885B500D2E76E /* SystemSoundPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSoundPlayerApp.swift; sourceTree = "<group>"; };
 		BB2EADDC2A7885B500D2E76E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB2EADDE2A7885B800D2E76E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB2EADE12A7885B800D2E76E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB9BE5E92A78861900411E4B /* Sounds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sounds.json; sourceTree = "<group>"; };
+		BBE680442A78866C001C5BA9 /* SystemSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemSound.swift; sourceTree = "<group>"; };
+		BBE680462A788743001C5BA9 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			children = (
 				BB2EADDA2A7885B500D2E76E /* SystemSoundPlayerApp.swift */,
 				BB2EADDC2A7885B500D2E76E /* ContentView.swift */,
+				BB9BE5E92A78861900411E4B /* Sounds.json */,
+				BBE680462A788743001C5BA9 /* Bundle+Extension.swift */,
+				BBE680442A78866C001C5BA9 /* SystemSound.swift */,
 				BB2EADDE2A7885B800D2E76E /* Assets.xcassets */,
+				BB10F4B32A78A26100AAE233 /* Launch Screen.storyboard */,
 				BB2EADE02A7885B800D2E76E /* Preview Content */,
 			);
 			path = SystemSoundPlayer;
@@ -126,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2EADE22A7885B800D2E76E /* Preview Assets.xcassets in Resources */,
+				BB9BE5EA2A78861900411E4B /* Sounds.json in Resources */,
+				BB10F4B42A78A26100AAE233 /* Launch Screen.storyboard in Resources */,
 				BB2EADDF2A7885B800D2E76E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2EADDD2A7885B500D2E76E /* ContentView.swift in Sources */,
+				BBE680452A78866C001C5BA9 /* SystemSound.swift in Sources */,
 				BB2EADDB2A7885B500D2E76E /* SystemSoundPlayerApp.swift in Sources */,
+				BBE680472A788743001C5BA9 /* Bundle+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,11 +291,14 @@
 				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "System Sounds";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +323,14 @@
 				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "System Sounds";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

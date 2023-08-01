@@ -1,0 +1,603 @@
+[
+    {
+        "id": 1000,
+        "name": "new-mail.caf",
+        "category": "MailReceived"
+    },
+    {
+        "id": 1001,
+        "name": "mail-sent.caf",
+        "category": "MailSent"
+    },
+    {
+        "id": 1002,
+        "name": "Voicemail.caf",
+        "category": "VoicemailReceived"
+    },
+    {
+        "id": 1003,
+        "name": "ReceivedMessage.caf",
+        "category": "SMSReceived"
+    },
+    {
+        "id": 1004,
+        "name": "SentMessage.caf",
+        "category": "SMSSent"
+    },
+    {
+        "id": 1005,
+        "name": "alarm.caf",
+        "category": "CalendarAlert"
+    },
+    {
+        "id": 1006,
+        "name": "low_power.caf",
+        "category": "LowPower"
+    },
+    {
+        "id": 1007,
+        "name": "sms-received1.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1008,
+        "name": "sms-received2.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1009,
+        "name": "sms-received3.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1010,
+        "name": "sms-received4.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": -1,
+        "name": " Vibrate",
+        "category": "SMSReceived_Vibrate"
+    },
+    {
+        "id": 1012,
+        "name": "sms-received1.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1013,
+        "name": "sms-received5.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1014,
+        "name": "sms-received6.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1015,
+        "name": "Voicemail.caf",
+        "category": "-"
+    },
+    {
+        "id": 1016,
+        "name": "tweet_sent.caf",
+        "category": "SMSSent"
+    },
+    {
+        "id": 1020,
+        "name": "Anticipate.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1021,
+        "name": "Bloom.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1022,
+        "name": "Calypso.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1023,
+        "name": "Choo_Choo.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1024,
+        "name": "Descent.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1025,
+        "name": "Fanfare.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1026,
+        "name": "Ladder.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1027,
+        "name": "Minuet.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1028,
+        "name": "News_Flash.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1029,
+        "name": "Noir.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1030,
+        "name": "Sherwood_Forest.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1031,
+        "name": "Spell.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1032,
+        "name": "Suspense.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1033,
+        "name": "Telegraph.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1034,
+        "name": "Tiptoes.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1035,
+        "name": "Typewriters.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1036,
+        "name": "Update.caf",
+        "category": "SMSReceived_Alert"
+    },
+    {
+        "id": 1050,
+        "name": "ussd.caf",
+        "category": "USSDAlert"
+    },
+    {
+        "id": 1051,
+        "name": "SIMToolkitCallDropped.caf",
+        "category": "SIMToolkitTone"
+    },
+    {
+        "id": 1052,
+        "name": "SIMToolkitGeneralBeep.caf",
+        "category": "SIMToolkitTone"
+    },
+    {
+        "id": 1053,
+        "name": "SIMToolkitNegativeACK.caf",
+        "category": "SIMToolkitTone"
+    },
+    {
+        "id": 1054,
+        "name": "SIMToolkitPositiveACK.caf",
+        "category": "SIMToolkitTone"
+    },
+    {
+        "id": 1055,
+        "name": "SIMToolkitSMS.caf",
+        "category": "SIMToolkitTone"
+    },
+    {
+        "id": 1057,
+        "name": "Tink.caf",
+        "category": "PINKeyPressed"
+    },
+    {
+        "id": 1070,
+        "name": "ct-busy.caf",
+        "category": "AudioToneBusy"
+    },
+    {
+        "id": 1071,
+        "name": "ct-congestion.caf",
+        "category": "AudioToneCongestion"
+    },
+    {
+        "id": 1072,
+        "name": "ct-path-ack.caf",
+        "category": "AudioTonePathAcknowledge"
+    },
+    {
+        "id": 1073,
+        "name": "ct-error.caf",
+        "category": "AudioToneError"
+    },
+    {
+        "id": 1074,
+        "name": "ct-call-waiting.caf",
+        "category": "AudioToneCallWaiting"
+    },
+    {
+        "id": 1075,
+        "name": "ct-keytone2.caf",
+        "category": "AudioToneKey2"
+    },
+    {
+        "id": 1100,
+        "name": "lock.caf",
+        "category": "ScreenLocked"
+    },
+    {
+        "id": 1101,
+        "name": "unlock.caf",
+        "category": "ScreenUnlocked"
+    },
+    {
+        "id": 1103,
+        "name": "Tink.caf",
+        "category": "KeyPressed"
+    },
+    {
+        "id": 1104,
+        "name": "Tock.caf",
+        "category": "KeyPressed"
+    },
+    {
+        "id": 1105,
+        "name": "Tock.caf",
+        "category": "KeyPressed"
+    },
+    {
+        "id": 1106,
+        "name": "beep-beep.caf",
+        "category": "ConnectedToPower"
+    },
+    {
+        "id": 1107,
+        "name": "RingerChanged.caf",
+        "category": "RingerSwitchIndication"
+    },
+    {
+        "id": 1108,
+        "name": "photoShutter.caf",
+        "category": "CameraShutter"
+    },
+    {
+        "id": 1109,
+        "name": "shake.caf",
+        "category": "ShakeToShuffle"
+    },
+    {
+        "id": 1110,
+        "name": "jbl_begin.caf",
+        "category": "JBL_Begin"
+    },
+    {
+        "id": 1111,
+        "name": "jbl_confirm.caf",
+        "category": "JBL_Confirm"
+    },
+    {
+        "id": 1112,
+        "name": "jbl_cancel.caf",
+        "category": "JBL_Cancel"
+    },
+    {
+        "id": 1113,
+        "name": "begin_record.caf",
+        "category": "BeginRecording"
+    },
+    {
+        "id": 1114,
+        "name": "end_record.caf",
+        "category": "EndRecording"
+    },
+    {
+        "id": 1115,
+        "name": "jbl_ambiguous.caf",
+        "category": "JBL_Ambiguous"
+    },
+    {
+        "id": 1116,
+        "name": "jbl_no_match.caf",
+        "category": "JBL_NoMatch"
+    },
+    {
+        "id": 1117,
+        "name": "begin_video_record.caf",
+        "category": "BeginVideoRecording"
+    },
+    {
+        "id": 1118,
+        "name": "end_video_record.caf",
+        "category": "EndVideoRecording"
+    },
+    {
+        "id": 1150,
+        "name": "vc~invitation-accepted.caf",
+        "category": "VCInvitationAccepted"
+    },
+    {
+        "id": 1151,
+        "name": "vc~ringing.caf",
+        "category": "VCRinging"
+    },
+    {
+        "id": 1152,
+        "name": "vc~ended.caf",
+        "category": "VCEnded"
+    },
+    {
+        "id": 1153,
+        "name": "ct-call-waiting.caf",
+        "category": "VCCallWaiting"
+    },
+    {
+        "id": 1154,
+        "name": "vc~ringing.caf",
+        "category": "VCCallUpgrade"
+    },
+    {
+        "id": 1200,
+        "name": "dtmf-0.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1201,
+        "name": "dtmf-1.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1202,
+        "name": "dtmf-2.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1203,
+        "name": "dtmf-3.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1204,
+        "name": "dtmf-4.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1205,
+        "name": "dtmf-5.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1206,
+        "name": "dtmf-6.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1207,
+        "name": "dtmf-7.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1208,
+        "name": "dtmf-8.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1209,
+        "name": "dtmf-9.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1210,
+        "name": "dtmf-star.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1211,
+        "name": "dtmf-pound.caf",
+        "category": "TouchTone"
+    },
+    {
+        "id": 1254,
+        "name": "long_low_short_high.caf",
+        "category": "Headset_StartCall"
+    },
+    {
+        "id": 1255,
+        "name": "short_double_high.caf",
+        "category": "Headset_Redial"
+    },
+    {
+        "id": 1256,
+        "name": "short_low_high.caf",
+        "category": "Headset_AnswerCall"
+    },
+    {
+        "id": 1257,
+        "name": "short_double_low.caf",
+        "category": "Headset_EndCall"
+    },
+    {
+        "id": 1258,
+        "name": "short_double_low.caf",
+        "category": "Headset_CallWaitingActions"
+    },
+    {
+        "id": 1259,
+        "name": "middle_9_short_double_low.caf",
+        "category": "Headset_TransitionEnd"
+    },
+    {
+        "id": 1300,
+        "name": "Voicemail.caf",
+        "category": "SystemSoundPreview"
+    },
+    {
+        "id": 1301,
+        "name": "ReceivedMessage.caf",
+        "category": "SystemSoundPreview"
+    },
+    {
+        "id": 1302,
+        "name": "new-mail.caf",
+        "category": "SystemSoundPreview"
+    },
+    {
+        "id": 1303,
+        "name": "mail-sent.caf",
+        "category": "SystemSoundPreview"
+    },
+    {
+        "id": 1304,
+        "name": "alarm.caf",
+        "category": "SystemSoundPreview"
+    },
+    {
+        "id": 1305,
+        "name": "lock.caf",
+        "category": "SystemSoundPreview"
+    },
+    {
+        "id": 1306,
+        "name": "Tock.caf",
+        "category": "KeyPressClickPreview"
+    },
+    {
+        "id": 1307,
+        "name": "sms-received1.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1308,
+        "name": "sms-received2.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1309,
+        "name": "sms-received3.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1310,
+        "name": "sms-received4.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1312,
+        "name": "sms-received1.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1313,
+        "name": "sms-received5.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1314,
+        "name": "sms-received6.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1315,
+        "name": "Voicemail.caf",
+        "category": "SystemSoundPreview"
+    },
+    {
+        "id": 1320,
+        "name": "Anticipate.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1321,
+        "name": "Bloom.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1322,
+        "name": "Calypso.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1323,
+        "name": "Choo_Choo.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1324,
+        "name": "Descent.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1325,
+        "name": "Fanfare.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1326,
+        "name": "Ladder.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1327,
+        "name": "Minuet.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1328,
+        "name": "News_Flash.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1329,
+        "name": "Noir.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1330,
+        "name": "Sherwood_Forest.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1331,
+        "name": "Spell.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1332,
+        "name": "Suspense.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1333,
+        "name": "Telegraph.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1334,
+        "name": "Tiptoes.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1335,
+        "name": "Typewriters.caf",
+        "category": "SMSReceived_Selection"
+    },
+    {
+        "id": 1336,
+        "name": "Update.caf",
+        "category": "SMSReceived_Selection"
+    }
+]
+
